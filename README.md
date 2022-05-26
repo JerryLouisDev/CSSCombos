@@ -1,23 +1,5 @@
 # CSSComboChallenges
 
-/* Example of Descendant selector of img in a header*/
-
-header img{
+1.) Create a selector that targets the <img> element that is a descendant of the <header> element. Apply a bottom margin of 20px.
   
-margin: 20px;
-}
-
-/* Example of Descendant selector of p in a class*/
-.main-content p{
-  font-weight: bold;
- }
-
-/*Example of adjacent sibling of two divs selector*/
-div + div{
-  margin-top: 15px;
-  }
-
-/*Example of span direct child of a div*/
-div > span{
-  background-color: powderblue;
- }
+2.) 
