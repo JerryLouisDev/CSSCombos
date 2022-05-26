@@ -1,0 +1,21 @@
+/* Use a pseudo-class to select the first-child list item. Set the color of that list item to white. (Once you do this, you won't see the text in the preview. In a moment, you'll darken the background to make the text stand out.) */
+li:first-child{
+  color: white;
+}
+
+/* Use a pseudo-class to select the last-child list items. Set the color of that list item to azure. */
+li:last-child{
+  color: azure;
+}
+
+/* Use a pseudo-class to select the even list items. Set the background color of the items to dodgerblue. */
+li:nth-child(even){
+
+background-color: dodgerblue;
+}
+
+/* Finally, use a pseudo-class to select the odd list items. Set the background color of those items to cornflowerblue. */
+li:nth-child(odd){
+
+background-color: cornflowerblue;
+}
