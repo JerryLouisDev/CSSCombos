@@ -1,0 +1,44 @@
+/*
+
+Element types:
+Selector |	Example |	Description
+tag	p	Selects all p elements
+.class	.container	Selects all elements whose class="container"
+#id	#myButton	Selects an element whose id="myButton"
+
+Combinations:
+Selector	Example	Description
+element	h1	Selects all h1 elements
+element, element	div, h1	Selects all div elements and all h1 elements (regardless of level)
+element element	div h1	Selects all h1 elements inside of div elements
+element > element	div > h1	Selects all h1 elements whose direct parent is a div
+element + element	p + p	Selects p elements that are the next element after another p element
+
+Attribute Selectors:
+Selector	Example	Description
+[attribute]	input[type]	Selects all input elements that are using the type attribute
+[attribute=value]	input[type=text]	Selects all input elements of type text (textboxes)
+[attribute^=value]	[class^=grid]	Selects all elements that start with a class name of "grid", ie: grid__row
+[attribute$=value]	[class$=primary]	Selects all elements that end with a class name of "primary", ie: button--primary
+
+Pseudo-Classes:
+Selector	Example	Description
+:active	button:active	Selects the button that is currently being pressed or touched
+:focus	input:focus	Selects the input currently in focus
+:hover	a:hover	Selects a link that the mouse pointer is over.
+
+Index Selectors (Subset of Pseudo-Classes):
+Selector	Example	Description
+:nth-child(n)	p:nth-child(3)	Selects every p element that is the third child of its parent.
+:nth-child(odd or even)	p:nth-child(odd)	Selects every odd numbered p element inside of its parent.
+:nth-last-child(n)	p:nth-last-child(3)	Selects every p element that is the third from last child of its parent
+:nth-of-type(n)	p:nth-of-type(3)	Selects every p element that is the third p element inside its parent
+:nth-last-of-type(n)	p:nth-last-of-type(3)	Selects every p element that is the third from last p element inside its parent
+
+Pseudo-Elements:
+Selector	Example	Description
+::after	div::after	Used to insert content after an element
+::before	div::before	Used to insert content before an element
+::placeholder	input::placeholder	Selects the HTML5 placeholder attribute
+
+*/
